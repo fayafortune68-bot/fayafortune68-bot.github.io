@@ -1,0 +1,983 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio de FAYA Naka Fortune, étudiante en Génie informatique, spécialité Intelligence Artificielle et Big Data à HESTIM Casablanca.">
+
+    <meta name="author" content="FAYA Naka Fortune">
+    <meta name="theme-color" content="#09090f">
+
+    <title>FAYA Naka Fortune | Portfolio</title>
+
+    <!-- Polices Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Icônes -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Fond décoratif -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#accueil" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                FNF
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+
+                <li><a href="#formation" class="nav-link">Formation</a></li>
+
+                <li><a href="#contact" class="nav-link contact-link">Me contacter</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- SECTION ACCUEIL -->
+        <section class="hero section" id="accueil">
+
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Étudiante en Génie informatique
+                    </div>
+
+                    <p class="hero-intro">BONJOUR, JE SUIS</p>
+
+                    <h1>
+                        FAYA Naka<br>
+                        <span class="gradient-text">Fortune.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Future ingénieure en
+                        <span id="typing-text">Intelligence Artificielle</span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Étudiante en première année de Génie informatique à HESTIM,
+                        spécialisée en Intelligence Artificielle et Big Data.
+                        Je m'intéresse aux technologies qui transforment les données
+                        en solutions intelligentes et innovantes.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projets" class="btn btn-primary">
+                            Découvrir mes projets
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Me contacter
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="https://www.linkedin.com/in/fortune-faya-b1a57a442"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <!-- Remplace # par ton URL GitHub -->
+                        <a href="#"
+                           aria-label="GitHub"
+                           class="placeholder-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="mailto:contact@example.com"
+                           aria-label="Envoyer un email"
+                           class="placeholder-link">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Carte visuelle -->
+                <div class="hero-visual reveal">
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="profile-card">
+
+                        <div class="card-top">
+                            <span class="card-indicator"></span>
+                            <span>PROFILE.exe</span>
+
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="profile-avatar">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+
+                        <p class="profile-label">ASPIRING ENGINEER</p>
+
+                        <h3>AI &amp; Big Data</h3>
+
+                        <p class="profile-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Casablanca, Maroc
+                        </p>
+
+                        <div class="code-decoration">
+                            <span>01</span> const passion = "innovation";<br>
+                            <span>02</span> const field = "artificial intelligence";<br>
+                            <span>03</span> const future = "limitless";
+                        </div>
+
+                        <div class="card-footer">
+                            <span><i class="fa-solid fa-circle"></i> Learning</span>
+                            <span>v1.0.0</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge badge-ai">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>Artificial Intelligence</span>
+                    </div>
+
+                    <div class="floating-badge badge-data">
+                        <i class="fa-solid fa-database"></i>
+                        <span>Big Data</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#apropos" class="scroll-indicator">
+                <span>Défiler pour découvrir</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+        </section>
+
+
+        <!-- SECTION À PROPOS -->
+        <section class="section about-section" id="apropos">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">01 / À PROPOS</p>
+                    <h2>Apprendre aujourd'hui,<br>
+                        <span class="gradient-text">innover demain.</span>
+                    </h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text reveal">
+
+                        <p class="lead">
+                            Je suis <strong>FAYA Naka Fortune</strong>,
+                            étudiante en première année de Génie informatique
+                            à HESTIM School, à Casablanca.
+                        </p>
+
+                        <p>
+                            Titulaire d'un baccalauréat scientifique, j'ai choisi
+                            de poursuivre mes études dans un domaine qui associe
+                            logique, créativité et innovation technologique.
+                        </p>
+
+                        <p>
+                            Mon parcours m'amène à explorer le développement
+                            informatique, l'Intelligence Artificielle et le Big Data.
+                            Je souhaite progressivement acquérir les compétences
+                            nécessaires pour concevoir des applications utiles,
+                            exploiter les données et comprendre les systèmes intelligents.
+                        </p>
+
+                        <p>
+                            Curieuse, motivée et désireuse d'apprendre, je considère
+                            chaque exercice et chaque projet comme une occasion
+                            de progresser.
+                        </p>
+
+                        <a href="#formation" class="text-link">
+                            Découvrir mon parcours
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="about-cards reveal">
+
+                        <article class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+
+                            <div>
+                                <h3>Formation</h3>
+                                <p>Génie informatique à HESTIM</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+
+                            <div>
+                                <h3>Spécialité</h3>
+                                <p>Intelligence Artificielle &amp; Big Data</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div>
+                                <h3>Objectif</h3>
+                                <p>Développer des solutions innovantes</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <h3>Localisation</h3>
+                                <p>Casablanca, Maroc</p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION COMPÉTENCES -->
+        <section class="section skills-section" id="competences">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">02 / COMPÉTENCES</p>
+                    <h2>Les outils pour<br>
+                        <span class="gradient-text">construire l'avenir.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Les technologies que j'explore et les domaines
+                        dans lesquels je souhaite développer mon expertise.
+                    </p>
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-icon purple">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Développement web</h3>
+
+                        <p>
+                            Création de pages web structurées, modernes
+                            et adaptées aux différents écrans.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-icon blue">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+
+                        <h3>Programmation</h3>
+
+                        <p>
+                            Apprentissage de la logique algorithmique,
+                            de la résolution de problèmes et de la programmation.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Algorithmique</span>
+                            <span>Logique</span>
+                            <span>Programmation</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-icon pink">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <h3>Intelligence Artificielle</h3>
+
+                        <p>
+                            Découverte des systèmes intelligents,
+                            du machine learning et des applications de l'IA.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>IA</span>
+                            <span>Machine Learning</span>
+                            <span>Python à explorer</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-icon cyan">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>Big Data</h3>
+
+                        <p>
+                            Intérêt pour la gestion, l'analyse,
+                            la visualisation et l'exploitation des données.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Données</span>
+                            <span>Analyse</span>
+                            <span>Visualisation</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="learning-banner reveal">
+
+                    <div class="learning-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+
+                    <div>
+                        <h3>En constante évolution</h3>
+
+                        <p>
+                            Je développe progressivement mes compétences
+                            à travers mes cours, mes exercices et mes projets personnels.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION PROJETS -->
+        <section class="section projects-section" id="projets">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">03 / PROJETS</p>
+
+                    <h2>Des idées qui prennent<br>
+                        <span class="gradient-text">forme grâce au code.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Quelques exemples de projets que je peux développer
+                        et présenter au fil de mon apprentissage.
+                    </p>
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- Projet 1 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual project-visual-one">
+
+                            <div class="project-window">
+                                <div class="project-window-bar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="portfolio-preview">
+                                    <div class="preview-sidebar"></div>
+
+                                    <div class="preview-content">
+                                        <div class="preview-line long"></div>
+                                        <div class="preview-line medium"></div>
+                                        <div class="preview-blocks">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <span class="project-number">PROJECT_01</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Développement web</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+
+                            <h3>Portfolio personnel</h3>
+
+                            <p>
+                                Un site personnel pour présenter mon profil,
+                                mon parcours académique, mes compétences et mes projets.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                En savoir plus
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Projet 2 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual project-visual-two">
+
+                            <div class="data-visual">
+
+                                <i class="fa-solid fa-chart-line chart-icon"></i>
+
+                                <div class="chart-bars">
+                                    <span style="--bar-height: 35%"></span>
+                                    <span style="--bar-height: 55%"></span>
+                                    <span style="--bar-height: 43%"></span>
+                                    <span style="--bar-height: 78%"></span>
+                                    <span style="--bar-height: 65%"></span>
+                                    <span style="--bar-height: 95%"></span>
+                                </div>
+
+                            </div>
+
+                            <span class="project-number">PROJECT_02</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Data &amp; analyse</span>
+                                <i class="fa-solid fa-chart-column"></i>
+                            </div>
+
+                            <h3>Tableau de bord de données</h3>
+
+                            <p>
+                                Projet d'apprentissage visant à représenter
+                                des données avec des graphiques et des indicateurs.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Data</span>
+                                <span>Visualisation</span>
+                                <span>Analyse</span>
+                            </div>
+
+                            <span class="project-status">
+                                <i class="fa-solid fa-circle"></i>
+                                Idée de projet
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Projet 3 -->
+                    <article class="project-card reveal">
+
+                        <div class="project-visual project-visual-three">
+
+                            <div class="ai-visual">
+
+                                <div class="ai-orbit orbit-a"></div>
+                                <div class="ai-orbit orbit-b"></div>
+
+                                <div class="ai-core">
+                                    <i class="fa-solid fa-brain"></i>
+                                </div>
+
+                                <span class="ai-node node-a"></span>
+                                <span class="ai-node node-b"></span>
+                                <span class="ai-node node-c"></span>
+                                <span class="ai-node node-d"></span>
+
+                            </div>
+
+                            <span class="project-number">PROJECT_03</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Intelligence Artificielle</span>
+                                <i class="fa-solid fa-microchip"></i>
+                            </div>
+
+                            <h3>Découverte du Machine Learning</h3>
+
+                            <p>
+                                Un futur projet pour explorer les données,
+                                entraîner un modèle simple et comprendre
+                                comment effectuer des prédictions.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Python</span>
+                                <span>Machine Learning</span>
+                                <span>Data</span>
+                            </div>
+
+                            <span class="project-status">
+                                <i class="fa-solid fa-circle"></i>
+                                Idée de projet
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <p class="projects-note reveal">
+                    Les projets 2 et 3 sont des idées de projets :
+                    remplace leur présentation par tes réalisations
+                    effectives lorsqu'elles seront disponibles.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION FORMATION -->
+        <section class="section education-section" id="formation">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="section-label">04 / FORMATION</p>
+
+                    <h2>Mon parcours<br>
+                        <span class="gradient-text">académique.</span>
+                    </h2>
+                </div>
+
+
+                <div class="timeline">
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">
+                                Première année
+                            </span>
+
+                            <h3>Génie informatique</h3>
+
+                            <h4>HESTIM School — Casablanca</h4>
+
+                            <p>
+                                Formation en génie informatique avec une spécialisation
+                                en Intelligence Artificielle et Big Data.
+                                Acquisition progressive des fondamentaux de l'informatique,
+                                de la programmation et de la résolution de problèmes.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>Informatique</span>
+                                <span>IA</span>
+                                <span>Big Data</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">
+                                Formation antérieure
+                            </span>
+
+                            <h3>Baccalauréat scientifique</h3>
+
+                            <h4>Enseignement secondaire</h4>
+
+                            <p>
+                                Acquisition de bases scientifiques et développement
+                                de la rigueur, du raisonnement logique et de la capacité
+                                à résoudre des problèmes.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION OBJECTIF -->
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-card reveal">
+
+                    <div class="cta-decoration"></div>
+
+                    <p class="section-label">ET LA SUITE ?</p>
+
+                    <h2>
+                        Le meilleur reste<br>
+                        <span class="gradient-text">à construire.</span>
+                    </h2>
+
+                    <p>
+                        Je suis motivée à apprendre, à relever de nouveaux défis
+                        et à transformer mes connaissances en projets concrets.
+                    </p>
+
+                    <a href="#contact" class="btn btn-primary">
+                        Parlons de vos idées
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">05 / CONTACT</p>
+
+                    <h2>Une idée, une question ?<br>
+                        <span class="gradient-text">Discutons-en.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        N'hésite pas à me contacter pour échanger autour
+                        de l'informatique, de l'IA ou de futurs projets.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+
+                        <h3>Entrons en contact.</h3>
+
+                        <p>
+                            Je suis toujours intéressée par les échanges
+                            constructifs, les nouvelles idées et les opportunités
+                            d'apprentissage.
+                        </p>
+
+                        <a href="https://www.linkedin.com/in/fortune-faya-b1a57a442"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-method">
+
+                            <span class="contact-method-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </span>
+
+                            <span>
+                                <small>LinkedIn</small>
+                                <strong>Mon profil professionnel</strong>
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+
+                        <a href="mailto:contact@example.com"
+                           class="contact-method placeholder-link">
+
+                            <span class="contact-method-icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </span>
+
+                            <span>
+                                <small>Email</small>
+                                <strong>Mon adresse email</strong>
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+
+                        <div class="contact-location">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <span>
+                                <strong>Casablanca, Maroc</strong>
+                                <small>Localisation</small>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Formulaire de contact -->
+                    <form class="contact-form reveal" id="contact-form">
+
+                        <div class="form-group">
+
+                            <label for="name">Nom complet</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Votre nom"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">Adresse email</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="vous@exemple.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">Sujet</label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="Objet de votre message"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">Votre message</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Écrivez votre message..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+
+                            Préparer mon message
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                        </button>
+
+                        <p class="form-notice" id="form-notice" role="status">
+                            Le formulaire ouvrira votre application email.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIED DE PAGE -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#accueil" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                FNF
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <p>
+                Conçu avec passion par
+                <strong>FAYA Naka Fortune</strong>.
+            </p>
+
+            <a href="#accueil" class="back-to-top" aria-label="Retour en haut">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+
+        <div class="container copyright">
+            <p>
+                &copy; <span id="current-year"></span>
+                FAYA Naka Fortune. Tous droits réservés.
+            </p>
+
+            <p>Conçu à Casablanca, Maroc.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
